@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: "Azeret Mono", monospace;
 
 }
@@ -32,7 +32,7 @@ body{
     font-weight: bold;
 }
 
-.hero-sac{
+.hero-sac {
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -43,20 +43,20 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height:450px;
+    height: 450px;
 }
 
-.hero-sac img{
+.hero-sac img {
     margin-bottom: 10px;
 }
 
-.hero-sac .btn{
+.hero-sac .btn {
     background-color: black;
     color: white;
     font-size: 12px;
 }
 
-.About-me{
+.About-me {
     width: 70%;
     margin: 0 auto;
     border: 1px solid black;
@@ -66,18 +66,22 @@ body{
     padding-bottom: 50px;
 }
 
-.about-title{
+.about-title {
     text-align: center;
     margin-top: 30px;
 }
 
-.about-title p,.discription p, .hero-sac p{
+.about-title p,
+.discription p,
+.hero-sac p {
     font-size: 12px;
     color: gray;
     margin-top: 10px;
 }
 
-.first, .sceond, .third{
+.first,
+.sceond,
+.third {
     display: flex;
     margin-left: 60px;
     margin-right: 120px;
@@ -86,10 +90,163 @@ body{
     padding: 20px;
 }
 
-.discription{
+.discription {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     gap: 20px;
+}
+
+.vedio-contant {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.vedio-contant h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vedio-contant p {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.main-video {
+    border: 1px solid rgb(204, 200, 200);
+    border-radius: 20px;
+    width: calc(100%-20px);
+    height: 400px;
+    padding: 20px;
+}
+
+.main-video iframe {
+    border-radius: 20px;
+}
+
+.my-target {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.target-title {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.target-title p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.current-target {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.current-target .html {
+    height: 200px;
+    background-color: rgb(255, 237, 255);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.current-target .css {
+    height: 200px;
+    background-color: rgb(230, 246, 253);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.current-target .javascript {
+    height: 200px;
+    background-color: rgb(255, 237, 255);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.Reactjs, .Nodejs, .MongoDB{
+    display: flex;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.Reactjs .description p,.Nodejs .description p,.MongoDB .description p{
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.suppotr-sec{
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(49, 49, 49, 0.533);
+}
+
+.suppotr-sec p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+    margin-right: 10px;
+}
+
+.suppotr-sec .input-taxt{
+    padding: 10px 150px 10px 10px;
+    border-radius: 10px;
+    text-align: start;
+    border: none;
+}
+.suppotr-sec .input-button{
+    padding: 10px 20px;
+    border-radius: 10px ;
+    border: nones;
+}
+
+.end{
+    background-color: rgb(235, 233, 233);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+    margin-top: 50px;
 }
